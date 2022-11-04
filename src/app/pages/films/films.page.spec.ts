@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
-
+import { Observable } from 'rxjs';
+import { ApiService } from '../../services/api.service';
 import { FilmsPage } from './films.page';
 
 describe('FilmsPage', () => {
@@ -22,3 +23,6 @@ describe('FilmsPage', () => {
     expect(component).toBeTruthy();
   });
 });
+<details>
+    
+</details>

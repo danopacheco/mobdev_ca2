@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-spaceships',
@@ -13,3 +15,6 @@ export class SpaceshipsPage implements OnInit {
   }
 
 }
+<details>
+  
+</details>

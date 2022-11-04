@@ -8,7 +8,7 @@
 
 
 <ion-content>
-  ion-list>
+  <ion-list>
     <ion-item button detail lines="@inset" *ngFor="let film of (spaceships | async)?.results" (click)="openDetails(film)">	
       {{ spaceships.title }}</ion-item>
   </ion-list>
